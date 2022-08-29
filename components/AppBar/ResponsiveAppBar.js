@@ -41,7 +41,7 @@ export default function ResponsiveAppBar() {
       <Container maxWidth="xl">
         <Box sx={{ flexGrow: 0.5 }}>
           <AppBar color="primary" sx={{ padding: -100 }} position="fixed">
-            <Toolbar className={styles.appbar_positioning}>
+            <Toolbar>
               <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
                 <Button
                   onClick={handleCloseNavMenu}
@@ -67,7 +67,7 @@ export default function ResponsiveAppBar() {
               </Box>
               <Typography className={styles.sign_in_position}>
                 <Stack direction="row" spacing={2}>
-                    <Button variant="text" className={styles.sign_in_effect}>
+                    <Button variant="text">
                       <Typography color="#fff" variant="h6" className={styles.underline}>
                         Sign In
                       </Typography>

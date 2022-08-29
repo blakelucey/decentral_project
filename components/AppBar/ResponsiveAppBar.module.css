@@ -1,38 +1,3 @@
-.borderCircle {
-  border-radius: 9999px;
-}
-
-.padding {
-  padding: 3px;
-}
-
-.flex {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.button_github {
-  padding-right: 10px;
-}
-.button_github:hover {
-  transform: scale(1.2);
-}
-.button_linkedIn {
-  padding-right: 10px;
-  padding-left: 10px;
-}
-.button_linkedIn:hover {
-  transform: scale(1.2);
-}
-.button_pdf {
-  padding-right: 10px;
-  padding-left: 10px;
-}
-.button_pdf:hover {
-  transform: scale(1.2);
-}
-
 .center {
   display: block;
   text-align: center;
@@ -54,19 +19,6 @@
 }
 .underline:hover {
   text-decoration-color: #fff;
-}
-.a {
-  color: inherit;
-  text-decoration: inherit;
-}
-.icon {
-  color: #fff;
-}
-
-@font-face {
-  font-family: "Sansita";
-  src: url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Sansita:ital,wght@1,700&display=swap.woff")
-    format("woff");
 }
 .name {
   color: inherit;
